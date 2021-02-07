@@ -19,14 +19,14 @@
 		"scope": "javascript,typescript",
 		"prefix": "zadachaStart",
 		"body": [
-			"function soltuion($0) {",
+			"function solution($0) {",
 			"",
 			"",
 			"};",
 			"",	
-			"console.log(",
+			"console.log(solution(",
 			"",	
-			");",
+			"));",
 		],
 		"description": "Log output to console"
 	}
