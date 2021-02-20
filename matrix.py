@@ -5,18 +5,18 @@
 import numpy as np 
 
 # Get the size m and n 
-m , n = 3, 3		
+m , n = 3, 4		
 
 # Function to calculate sum of each row 
-def row_sum(arr) : 
+def row_sum(arr,row,col) : 
 
 	sum = 0
 
 	print("\nFinding Sum of each row:\n") 
 
 	# finding the row sum 
-	for i in range(3) : 
-		for j in range(3) : 
+	for i in range(row) : 
+		for j in range(col) : 
 
 			# Add the element 
 			sum += arr[i][j] 
@@ -29,21 +29,21 @@ def row_sum(arr) :
 
 
 # Function to calculate sum of each column 
-def column_sum(arr) : 
+def column_sum(arr,row,col) : 
 
 	sum = 0
 
 	print("\nFinding Sum of each column:\n") 
 
 	# finding the column sum 
-	for i in range(3) : 
-		for j in range(3) : 
+	for j in range(col) : 
+		for i in range(row) : 
 
 			# Add the element 
-			sum += arr[j][i] 
+			sum += arr[i][j] 
 
 		# Print the column sum 
-		print("Sum of the column",i,"=",sum) 
+		print("Sum of the column",j,"=",sum) 
 
 		# Reset the sum 
 		sum = 0
@@ -53,23 +53,15 @@ def column_sum(arr) :
 # Driver code	 
 if __name__ == "__main__" : 
 
-	arr = [[4, 5, 6], [6, 5, 4], [5, 5, 5]]
- 
+	arr = [[1, 2,   3,  4],
+           [5, 6,   7,  8],
+           [9, 10, 11, 12]]
 
-	# Get the matrix elements 
-	# x = 1
-	
-	# for i in range(m) : 
-	# 	for j in range(n) : 
-	# 		arr[i][j] = x 
-
-	# 		x += 1
 				
 	# Get each row sum 
-	row_sum(arr) 
+	row_sum(arr,m,n) 
 
 	# Get each column sum 
-	column_sum(arr) 
+	column_sum(arr,m,n) 
 
-# This code is contributed by 
-# ANKITRAI1 
+
