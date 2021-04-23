@@ -1,11 +1,9 @@
 **This repo contains:**
+
 **.vscode**
+
 Snippet for JavaScript in VS Code
-"zadachaStart" -> function soltuion() {
-#};
-#
-#console.log(
-#);
+"zadachaStart" -> function soltuion() {}; console.log();
 
 **Distance converter**
 
