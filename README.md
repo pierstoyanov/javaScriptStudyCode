@@ -1,8 +1,7 @@
 **This repo contains:**
 **.vscode**
 Snippet for JavaScript in VS Code
-"zadachaStart" -> 
-#function soltuion() {
+"zadachaStart" -> function soltuion() {
 #};
 #
 #console.log(
