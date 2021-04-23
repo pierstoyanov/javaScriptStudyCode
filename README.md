@@ -14,4 +14,5 @@ Snippet for JavaScript in VS Code
   5.Functional Sum.js
   6.Monkey Patcher.js
 
+**PetMyPet-JsApps-exam-17_04_2021** SoftUni JS Applications 
 
