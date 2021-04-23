@@ -1,7 +1,6 @@
 **This repo contains:**
 
-**.vscode**
-
+**.vscode:**
 Snippet for JavaScript in VS Code
 "zadachaStart" -> function soltuion() {}; console.log();
 
