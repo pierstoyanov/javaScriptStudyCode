@@ -2,7 +2,7 @@
 
 // function to escape HTML characters
 
-function escapeHtml(str) {
+function escapeHTML(str) {
     let regex = /[&|<|>|"|']/g;
     let htmlString = ('' + str).replace(regex, function(match) {
         if (match === '&') {
